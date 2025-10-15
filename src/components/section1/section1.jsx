@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Page1content from './page1content.jsx'
 
 const section1 = () => {
   return (
     <div className='h-screen w-full bg-green-500'>
     <Navbar/>
+    <Page1content/>
     </div>
   )
 }
