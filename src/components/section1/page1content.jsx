@@ -4,7 +4,7 @@ import Right from './rightcontent.jsx'
 
 const page1content = () => {
   return (
-    <div className='h-[90vh]  my-1 w-full bg-amber-900 p-2 flex items-center justify-between gap-4'>
+    <div className='h-[90vh]  my-1 w-full  p-2 flex items-center justify-between gap-4'>
      <Left/>
      <Right/>
     </div>
